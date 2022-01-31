@@ -1,0 +1,7 @@
+amount = float(input("Enter total amount: "))
+discount = 0.05 * amount
+if amount >= 1000:
+  print("Pay: ",discount)
+
+else:
+  print("Pay: ",amount)

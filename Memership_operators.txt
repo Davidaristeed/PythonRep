@@ -1,0 +1,8 @@
+#MEMBERSHIP OPERATORS
+students = ["David","Marwa","John","Bobie","Wine"]
+name = input("Enter name: ")
+if name in students:
+  print(name,"Present")
+  
+else:
+  print(name,"Absent")

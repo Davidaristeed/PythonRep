@@ -1,0 +1,7 @@
+#CODE TO CHECK CITIZENSHIP AND AGE TO ALLOW FOR VOTING 
+citizenship = input("What's your country? ").lower()
+age = int(input("Give us your age: "))
+if (citizenship == "Kenya" and age >= 18):
+  print("We allow you to vote")
+else:
+  print("You aren't allowed")
